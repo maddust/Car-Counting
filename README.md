@@ -13,6 +13,8 @@ You can change tracking algorithm with
 
 ``results = model.track(source="https://youtu.be/Zgi9g1ksQHc", tracker="bytetrack.yaml")``
 
+If you have GPU, 
+
 ## How it works
 1. Set trigger position
 2. Load the model (of course)
@@ -22,5 +24,9 @@ You can change tracking algorithm with
     3. Draw result
 4. End
 
+[YOUTUBE VIDEO](https://youtu.be/bf5nmbEaXhU)
+
 Note: this project uses [supervision](https://github.com/roboflow/supervision) to detect when objects cross the trigger.
 It's on beta and many thing has changed so their documentation is outdated at the moment. You should watch their latest video instead.
+
+The video used to test is recorded from [camstreamer](https://camstreamer.com/live/stream/27159-4-corners-camera-downtown)
