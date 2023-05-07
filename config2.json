@@ -1,0 +1,27 @@
+{
+  "video_source": "/media/haroldpc/SSD01/videos/vi_0011_20190609_154445.mp4",
+  "line_zones": [
+    {
+      "name": "EAST",
+      "start": [96, 429],
+      "end": [832, 673]
+    },
+    {
+      "name": "WEST",
+      "start": [988, 561],
+      "end": [936, 213]
+    },
+    {
+      "name": "NORTH",
+      "start": [980, 229],
+      "end": [516, 237]
+    },
+    {
+      "name": "SOUTH",
+      "start": [492, 229],
+      "end": [116, 421]
+    }
+  ]
+}
+
+
